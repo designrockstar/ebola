@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="realstyle.css" />
+        <script src='script.js'></script>
+        <title>Home</title>
+    <style>
+       
+body {
+    background-color: #0000FF;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.logo {
+    height: 149;
+    width: 239;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu {
+    position: absolute;
+    width:1150; 
+    height: 149;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.back {
+    position: absolute;
+    width:1150; 
+    padding-top: 149;
+    height: 612;
+    left: 0;
+    top: 0;
+    z-index: -10;
+    text-align:center;
+}
+.bottom {
+    position: absolute;
+    width:1150; 
+    height: 119;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding-top: 761; 
+    
+}
+.bottomau {
+    position: absolute;
+    left: 366px;
+    top: 20px;
+    z-index: 1;
+    top: 790; 
+    color:black;
+    
+}
+.bottomau:hover {
+    color:yellow; 
+    
+}
+
+.bottomop {
+    position: absolute;
+    left: 540px;
+    z-index: 1;
+    top: 790; 
+    color:black;
+    
+}
+.bottomop:hover {
+    color:yellow; 
+    
+}
+.au {
+ top: 140px;
+ left:450;
+ position:absolute;
+ z-index:7;
+ background: #FFFFFF;
+ color:black;
+ }    
+.au:hover{
+    color:#FF0000;
+    background:#6699FF;
+}
+.os {
+ top: 420px;
+ left:455;
+ position:absolute;
+ z-index:7;
+ background: #FFFFFF;
+ color:black;
+}    
+.os:hover{
+    color:#FF0000;
+    background:#6699FF;
+}
+#tag {
+    position: absolute;
+    left: 250px;
+    padding-left: auto;
+    top: 30px;    
+    z-index: 02;
+    color: #FFFFFF
+}
+
+#about {
+    height: 225px;
+    width: 1000px;
+    background-color: #66FFFF;
+    left: 20;
+    z-index: 6;
+    position: absolute;
+    top: 202;
+    text-align: left;
+    opacity: 0.62;
+}
+
+#first {
+    position: absolute;
+    top:-15;
+    z-index: 9;
+}
+#second {
+    position: absolute;
+    top:45;
+}
+#homelink {
+    height: 33px;
+    width: 103px;
+    background-color: #FFFFFF;
+    z-index: 3;
+    position: absolute;
+    top: 116;
+    text-align: center;
+    left: 439;
+    outline:solid 1px;
+}
+.homelink {
+    position: absolute;
+    top:-13;
+    z-index: 5;
+    color:black;
+    height:33;
+    width:103;
+}
+#homelink:hover {
+    background-color:red;
+    color:yellow;
+}
+.homelink:hover {
+    color:yellow;
+}
+#aulink {
+    height: 33px;
+    width: 103px;
+    background-color: #0066FF;
+    z-index: 3;
+    position: absolute;
+    top: 116;
+    text-align: center;
+    left: 544;
+    outline:solid 1px;
+}
+.aulink {
+    position: absolute;
+    top:-15;
+    z-index: 5;
+    color: red;
+    height:33;
+    width:103;
+}
+#aulink:hover {
+    background-color: red;
+    color: yellow;
+    
+}
+.aulink:hover {
+    color: yellow;
+}
+#plink {
+    height: 33px;
+    width: 103px;
+    background-color: #FFFFFF;
+    z-index: 7;
+    position: absolute;
+    top: 116;
+    text-align: center;
+    left: 649;
+    outline:solid 1px;
+}
+.plink {
+    position: absolute;
+    top:-15;
+    z-index: 5;
+    color:black;
+    height:33;
+    width:103;
+}
+#plink:hover {
+    background-color:red;
+    color:yellow;
+    
+}
+.plink:hover {
+    color:yellow;
+}
+
+
+ #store {
+    height: 150px;
+    width: 1000px;
+    background-color: #00FF99;
+    z-index: 6;
+    position: absolute;
+    top: 490;
+    text-align: center;
+    opacity: 0.62;
+    left: 20;
+}
+.bottomos {
+    position: absolute;
+    left: 450px;
+    top: 20px;
+    z-index: 1;
+    top: 790; 
+    color:black;
+    
+}
+.bottomos:hover {
+    color:yellow; 
+    
+}
+
+    </style>
+    </head>
+
+    <body >
+        <img class="logo" src="https://paulmullins.files.wordpress.com/2014/11/ebolacdc.jpg" align="center" />
+        <img class="menu" src="http://planetvigil.businesscatalyst.com/filmtechstudios/images/home/u2.png" align="middle">
+        <img class="back" src="https://0901.static.prezi.com/preview/zsxy3fiei5j6jqjoab36nlrz236jc3sachvcdoaizecfr3dnitcq_0_0.png" />
+        <img class="bottom" src="http://planetvigil.businesscatalyst.com/filmtechstudios/images/home/u19.png" />
+        	<h1 id=tag>Modeling the Effects of Policy Changes on the Spread of Ebola</h1>
+       <div id=homelink>
+             <a href="ebolahome.html"><h4 class = "homelink">Home</h4></a>
+        </div>
+        <div id=aulink>
+             <a href="ebolafinalreport.html"><h4 class = "aulink">Final Report</h4></a>
+        </div>
+        <div id=plink>
+             <a href="ebolamodels.html"><h4 class = "plink">Models</h4></a>
+        </div>
+         <a href="ebolafinalreport.html"><h1 class = au>Abstract</h1></a>
+        <div id=about>
+            <p id=first>The 2014 Ebola outbreak was the worst Ebola outbreak ever recorded according to the World Health Organization. The Ebola Virus Disease (EVD) has mainly affected the West African populations. These countries include Guinea, Liberia, and Sierra
+                Leone. There are five known strains of the Ebola virus all causing EVD. The particular strain researched in this project is the Zaire Ebolavirus (EBOV). EVD is spread by primates, infected fruit bats, by the consequential contact of bodily
+                fluids, and contaminated needles or syringes. Once infected, symptoms include: fever, muscle pain, severe headache, weakness, diarrhea, abdominal pain, and unexplained bleeding or bruising. EVD is 90% fatal and for this reason has been
+                detrimental to the citizens of West Africa. NetLogo, an agent based programming language was used to create different simulations modeling the spread of EVD throughout a population. A simulation modeling a generic virus was found in NetLogo’s
+                model library. This was adapted to simulate EVD as well as different policy changes preventing EVD. Four different models depicting different policy changes a country might put into place were created. The first is implementing travel
+                restrictions on two populations. The second is applying contact tracing in conjunction with quarantine. The third is employing isolation and self-monitoring as well as quarantine. The fourth is modeling transportation between four different
+                villages. The data from the second and third models show that overall quarantine is an effective method to slow the progression of the disease. However, quarantining suspected individuals without keeping them separate from infectious individuals
+                does not help stop the spread of the disease. Quarantining in conjunction with self-monitoring is very effective.
+            </p>
+        </div>
+        <a href="ebolahome.html">
+            <p class=bottomau>Home</p>
+        </a>
+
+        
+        <a href="ebolafinalreport.html">
+            <p class=bottomos>Final Report</p>
+            </a>
+                <a href="ebolamodels.html">
+                    <p class=bottomop>Models</p>
+                </a>
+    </body>
+
+</html>
